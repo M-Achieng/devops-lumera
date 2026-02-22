@@ -37,3 +37,8 @@ jobs:
     - name: Tag staging image
       run: docker tag devops-lumera devops-lumera:staging
 
+- name: Deploy staging container
+      run: |
+        docker stop staging-container || true
+        docker rm staging-container || true
+        docker run -d -p 5001:5000 --name staging-container devops-lumera
