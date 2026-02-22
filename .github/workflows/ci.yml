@@ -34,3 +34,6 @@ jobs:
       run: |
         docker build -t devops-lumera .
 
+    - name: Tag staging image
+      run: docker tag devops-lumera devops-lumera:staging
+
