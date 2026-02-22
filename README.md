@@ -1,2 +1,2 @@
-![CI](https://github.com/YOUR_USERNAME/devops-lumera/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/M-Achieng/devops-lumera/actions/workflows/ci.yml/badge.svg)
 
